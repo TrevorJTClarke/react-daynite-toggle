@@ -10,8 +10,8 @@ export default class Toggle extends Component {
         <div className="toggle">
           <input className="toggle-input" type="checkbox" />
           <div className="toggle-bg"></div>
-          <div className="toggle-switch">
-          </div>
+          <div className="toggle-switch"></div>
+          <div className="toggle-switch-cloud"></div>
         </div>
       </div>
     );

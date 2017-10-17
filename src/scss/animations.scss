@@ -1,0 +1,27 @@
+@keyframes orbShiftSun {
+  0% {
+    border-left-width: 4px;
+  }
+
+  50% {
+    border-left-width: 10px;
+  }
+
+  100% {
+    border-left-width: 4px;
+  }
+}
+
+@keyframes orbShiftMoon {
+  0% {
+    border-right-width: 4px;
+  }
+
+  50% {
+    border-right-width: 10px;
+  }
+
+  100% {
+    border-right-width: 4px;
+  }
+}
