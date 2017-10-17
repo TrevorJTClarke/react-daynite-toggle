@@ -1,0 +1,32 @@
+body {
+  background: darken(#f2f2f2, 5%);
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+
+  h1 {
+    font-size: 24pt;
+    font-weight: 200;
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
+.examples {
+  display: flex;
+  margin: 30px auto 80px;
+  width: 80vw;
+}
+
+.example {
+  background: white;
+  width: 50%;
+  margin: 20px;
+
+  &.example-fake {}
+  &.example-toggle {
+    display: flex;
+  }
+}
