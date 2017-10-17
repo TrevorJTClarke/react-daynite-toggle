@@ -9,7 +9,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <h1>Day/Nite Toggle</h1>
+        <h1>React Day/Nite Toggle</h1>
 
         <div className="examples">
           <div className="example example-fake">

@@ -22,10 +22,20 @@ body {
 
 .example {
   background: white;
-  width: 50%;
+  box-shadow: 0 1px 10px -1px rgba(0,0,0,0.1);
   margin: 20px;
+  width: 50%;
 
-  &.example-fake {}
+  &.example-fake {
+
+    img {
+      width: 80%;
+      margin: auto;
+      flex: 1;
+      display: block;
+    }
+  }
+
   &.example-toggle {
     display: flex;
   }

@@ -6,9 +6,16 @@ import '../scss/toggle.scss'; // Import CSS
 export default class Toggle extends Component {
   render() {
     return (
-      <div className="toggle">
-
+      <div className="toggle-container">
+        <div className="toggle">
+          <input className="toggle-input" type="checkbox" />
+          <div className="toggle-bg"></div>
+          <div className="toggle-switch">
+          </div>
+        </div>
       </div>
     );
   }
 }
+  // <div className="toggle-switch-figure"></div>
+// <div className="toggle-switch-figureAlt"></div>
