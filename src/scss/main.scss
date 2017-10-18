@@ -1,7 +1,8 @@
 body {
-  background: darken(#f2f2f2, 5%);
+  background: #81c0d5;
   font-family: Helvetica, Arial, sans-serif;
   margin: 0;
+  transition: all 440ms ease;
 
   h1 {
     font-size: 24pt;
@@ -12,11 +13,19 @@ body {
   img {
     width: 100%;
   }
+
+  &.nite {
+    background: #484848;
+
+    h1 {
+      color: white;
+    }
+  }
 }
 
 .examples {
   display: flex;
-  margin: 30px auto 80px;
+  margin: 30px auto 30px;
   width: 80vw;
 }
 
@@ -38,5 +47,18 @@ body {
 
   &.example-toggle {
     display: flex;
+  }
+}
+
+.example-credits {
+  display: flex;
+  margin: 0 auto 80px;
+  width: 80vw;
+  text-align: center;
+
+  a {
+    color: grey;
+    flex: 1;
+    text-decoration: none;
   }
 }

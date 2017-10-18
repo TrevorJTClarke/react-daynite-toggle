@@ -19,6 +19,10 @@ export default class App extends Component {
             <Toggle />
           </div>
         </div>
+        <div className="example-credits">
+          <a href="https://dribbble.com/shots/1909289-Day-Night-Toggle-Button-GIF" target="_blank">Tsuriel on Dribbble</a>
+          <a href="https://github.com/TrevorJTClarke" target="_blank">React Component by TrevorJTClarke</a>
+        </div>
       </div>
     );
   }

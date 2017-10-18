@@ -25,3 +25,76 @@
     border-right-width: 4px;
   }
 }
+
+$stars:          #FCFCFC !default;
+$stars-dark:     #6f6f6f !default;
+@keyframes starryNite {
+  0% {
+    box-shadow:
+      42px -7px 0 -7px $stars-dark,
+      75px -10px 0 -7px $stars-dark,
+      54px 4px 0 -7px $stars-dark,
+      83px 7px 0 -7px $stars-dark,
+      63px 18px 0 -7px $stars-dark,
+      44px 28px 0 -7px $stars-dark,
+      78px 23px 0 -7px $stars-dark;
+    opacity: 0;
+  }
+
+  40% {
+    box-shadow:
+      42px -7px 0 -7px $stars-dark,
+      75px -10px 0 -7px $stars-dark,
+      54px 4px 0 -7px $stars-dark,
+      83px 7px 0 -7px $stars-dark,
+      63px 18px 0 -7px $stars-dark,
+      44px 28px 0 -7px $stars-dark,
+      78px 23px 0 -7px $stars-dark;
+    opacity: 0;
+  }
+
+  45% {
+    box-shadow:
+      42px -7px 0 -2px $stars-dark, //1
+      75px -10px 0 -6px $stars-dark, //
+      54px 4px 0 -7px $stars-dark, //
+      83px 7px 0 -1px $stars-dark, //1
+      63px 18px 0 -7px $stars-dark, //
+      44px 28px 0 -1px $stars-dark, //1
+      78px 23px 0 -7px $stars-dark; //
+  }
+
+  58% {
+    box-shadow:
+      42px -7px 0 -2px $stars, //1
+      75px -10px 0 -2px $stars-dark, //2
+      54px 4px 0 -3px $stars-dark, //
+      83px 7px 0 -2px $stars-dark, //
+      63px 18px 0 -3px $stars-dark, //2
+      44px 28px 0 -1px $stars, //1
+      78px 23px 0 -7px $stars-dark; //
+  }
+
+  71% {
+    box-shadow:
+      42px -7px 0 -2px $stars, //1
+      75px -10px 0 -2px $stars, //2
+      54px 4px 0 -4px $stars-dark, //3
+      83px 7px 0 -1px $stars, //1
+      63px 18px 0 -3px $stars, //2
+      44px 28px 0 -1px $stars, //1
+      78px 23px 0 -3px $stars-dark; //3
+    opacity: 1;
+  }
+
+  100% {
+    box-shadow:
+      42px -7px 0 -3px $stars,
+      75px -10px 0 -3px $stars,
+      54px 4px 0 -4px $stars,
+      83px 7px 0 -2px $stars,
+      63px 18px 0 -4px $stars,
+      44px 28px 0 -2px $stars,
+      78px 23px 0 -3px $stars;
+  }
+}
